@@ -56,7 +56,7 @@ public class AddressBookSystem  implements Info{
                    }
                }
            }
-           /* Method to delete the details using firtname*/
+           /* Method to delete the details using firstname*/
            public void delete(String firstName) {
                for (int select = 0; select < book.size();select++) {
                    if (book.get(select).getFirstName().equalsIgnoreCase(firstName)) {
@@ -70,7 +70,7 @@ public class AddressBookSystem  implements Info{
            //Display the person details added
         public void display() {
             for (Person person1 : book)
-                System.out.println(Person);
+                System.out.println(person1);
         }
     }
 

@@ -12,7 +12,7 @@ public class Main {
 
          */
         while (status) {
-            System.out.println("Enter your option :  \n press1 to add new person" + "\n press 2 tov add display details \n prss  9 to Quit");
+            System.out.println("Enter your option :  \n press1 to add new person" + "\n press 2 Edit  details \n press 3 to Display details \npress 4 Delete details\n press 9 to Quit");
             int choice = scan .nextInt();
             switch (choice) {
                 case 1:
